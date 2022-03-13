@@ -6,7 +6,7 @@
 After cloning this repo into a local directory. Running the following commands in Bash 
 The docker container will be created and the Flask app will be running
 
-Note: Replace the REPLACE_BY_YOUR_KEY with any value of your choice 
+Note: Replace the **REPLACE_BY_YOUR_KEY** with any value of your choice 
 
 ```bash
 cd flaskAPI
@@ -18,6 +18,7 @@ docker-compose up
 
 When the app is running. 
 You could use PostMan to test the API endpoints
+These commands below for testing in terminal. Updated the **x-api-key** using the same value as the **APP_API_KEY** entered above 
 
 ### Examples: 
 
