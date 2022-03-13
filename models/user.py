@@ -32,12 +32,12 @@ class UserModel(database.Model):
                 }
 
     def save_to_db(self):
-        db.session.add(self)
-        db.session.commit()
+        database.session.add(self)
+        database.session.commit()
 
     def delete_from_db(self):
-        db.session.delete(self)
-        db.session.commit()
+        database.session.delete(self)
+        database.session.commit()
 
     @classmethod
     def find_by_user_id(cls, user_id):
