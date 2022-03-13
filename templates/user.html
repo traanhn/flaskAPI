@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+   {% for key, value in user.items() %}
+       <li>{{key}} : {{value}}</li>
+   {% endfor %}
+    <a href="/delete/{{ user.user_id }}">Delete</a>
+{% endblock %}
